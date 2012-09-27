@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function action_loop_test_install() {
+   db_update('system')
+    ->fields(array('weight' => 1))
+    ->condition('name', 'action_loop_test')
+    ->execute();
+}
