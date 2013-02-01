@@ -1,0 +1,8 @@
+{
+    "name": "drupal-fracture/action",
+    "version": "8.0.0",
+    "type": "drupal-module",
+    "require": {
+        "composer/installers": "*"
+    }
+}
